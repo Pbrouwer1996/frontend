@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>99 Verhalen</title>
+</head>
+<body>
+   <header>Gegevens</header>
+   <article>
+        <form method="post" action="aanmeld.html">
+           <fieldset>
+            <b>Persoonlijk</b><br><br>
+            Voornaam: <br>
+            <input type="text" name="firstname" ><br />
+            Tussenvoegsels: <br>
+            <input type="text" name="tussenvoegsel" ><br />
+            Achternaam: <br>
+            <input type="text" name="lastname"><br />
+            E-mailadres: <br>
+            <input type="email" name="emailadress"><br /><br>
+            <b>Adres</b>:<br><br>
+            Straatnaam: <br> <input type="text" name="Streetname"><br />
+            Postcode: <br>
+            <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" maxlength="6"><br />
+            Huisnummer: <br>
+             <input type="number" name="huisnummer" maxlength="5"><br />
+            Telefoonnummer: <br>
+            <input type="tel" name="telefoonnummer" maxlength="10" pattern="[0-9]{10}?"><br />
+            Wachtwoord: <br>
+            <input type="password" name="password" Pattern="[1-9][0-9]\s[a-zA-Z]"><br />
+            </fieldset>
+        </form><br /><br />
+   </article>
+</body>
+</html>
+
+
+<!-- voornaam, tussenvoegsel, achternaam, e-mailadres, adres (straat, postcode, huisnummer), telefoonnummer en wachtwoord.-->
+
